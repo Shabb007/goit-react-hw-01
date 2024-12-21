@@ -1,0 +1,60 @@
+.card {
+  width: 360px;
+  margin: 0 auto 48px auto;
+  padding-top: 24px;
+  border: 1px solid black;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.avatarImg {
+  width: 132px;
+  height: 132px;
+  background-color: #2a2a2a;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.avatarCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.avatarName {
+  color: #1a1f1a;
+  font-size: 30px;
+  font-weight: 700;
+}
+.avatarDescription {
+  font-size: 22px;
+  font-weight: 500;
+  color: gray;
+}
+.statisticList {
+  display: flex;
+  border-top: 1px solid #000;
+  background-color: lightgrey;
+}
+
+.statisticListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: calc(100% / 3);
+  padding: 24px 0;
+}
+
+.statisticListItem:not(:last-child) {
+  border-right: 1px solid #000;
+}
+
+.statisticName {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.statisticNumber {
+  font-weight: 600;
+  font-size: 18px;
+}

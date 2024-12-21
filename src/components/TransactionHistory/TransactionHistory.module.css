@@ -1,0 +1,23 @@
+.trTable {
+  table-layout: auto;
+  width: 100%;
+}
+
+.trTableHead {
+  background-color: black;
+  color: white;
+}
+
+.trTableHeadRow {
+  padding: 8px 0;
+}
+
+.trTableRow,
+.trTableColumn {
+  padding: 8px 0;
+  border: 1px solid black;
+}
+
+.trTableRow:nth-child(even) {
+  background-color: lightgray;
+}
